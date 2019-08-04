@@ -59,11 +59,11 @@ nav{
 .sidenav {
     min-height: 100%;
     width: 200px;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 0px;
     left: 0;
-    background-color: #111;
+    
     overflow-x: hidden;
     padding-top: 80px;
   }
@@ -73,7 +73,7 @@ nav{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
-    color: #818181;
+    color: #f1f1f1;
     display: block;
     border: none;
     background: none;
@@ -104,7 +104,6 @@ nav{
   /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
   .dropdown-container {
     display: none;
-    background-color: #262626;
     padding-left: 8px;
   }
   
